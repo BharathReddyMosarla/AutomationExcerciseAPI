@@ -19,7 +19,7 @@
       <class name="testcases.TestCase09"/>
       <class name="testcases.TestCase10"/>
       <class name="testcases.TestCase11"/>
-    <!--  <class name="testcases.TestCase12"/> -->
+     <class name="testcases.TestCase12"/> 
       <class name="testcases.TestCase13"/>
       <class name="testcases.TestCase14"/>
     </classes>
