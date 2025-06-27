@@ -72,7 +72,7 @@ public class TestCase11 extends BaseClass
 		
 	}
 	
-//	@Test(dependsOnMethods="testCreateUser")
+/*	@Test(dependsOnMethods="testCreateUser")
 	void testDeleteUser()
 	{
 		response = given()
@@ -92,6 +92,6 @@ public class TestCase11 extends BaseClass
 		assertThat(responseCode,is(200));
 		assertThat(message,is("Account deleted!"));
 		
-	}
+	}*/
 
 }
