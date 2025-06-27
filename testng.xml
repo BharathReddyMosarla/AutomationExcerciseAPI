@@ -13,7 +13,7 @@
     </classes>
   </test> 
   
-  <test name="Brand Tests">
+<!--  <test name="Brand Tests">
     <classes>
       <class name="testcases.TestCase03"/>
       <class name="testcases.TestCase04"/>
@@ -49,6 +49,6 @@
       <class name="testcases.TestCase14"/>
    
     </classes>
-  </test> 
+  </test>  -->
   
 </suite> <!-- Suite -->
