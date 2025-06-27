@@ -37,8 +37,8 @@ public class TestCase12 extends BaseClass
   	 */
 		Faker faker = new Faker();
 	    String name = faker.name().fullName();
-	    String email = faker.internet().emailAddress();
-	    String password = faker.internet().password();
+	    String email = "asdfedfg@gmail.com";//faker.internet().emailAddress();
+	    String password = "asdGH098fedfg";//faker.internet().password();
 	    String title = faker.name().title();
 	    String birth_date = "01";
 	    String birth_month = "01";
