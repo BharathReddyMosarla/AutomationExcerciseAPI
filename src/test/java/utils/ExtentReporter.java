@@ -102,7 +102,7 @@ public class ExtentReporter implements ITestListener
         suiteNode.info("Skipped: " + context.getSkippedTests().size());
 
         getExtentInstance().flush();
-        openReport();
+      //  openReport();
     }
 
     private void openReport() {
