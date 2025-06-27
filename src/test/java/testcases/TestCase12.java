@@ -80,7 +80,7 @@ void testDeleteUser()
 	.when()
 		.post(Routes.POST_CREATEUSER)
 	.then()
-		.statusCode(200)
+		.statusCode(201)
 		.log().body();
 		
 response = given()
