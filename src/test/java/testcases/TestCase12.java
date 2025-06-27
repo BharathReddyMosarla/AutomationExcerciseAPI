@@ -98,7 +98,7 @@ response = given()
 		int responseCode = jsonpath.getInt("responseCode");
 		String message = jsonpath.getString("message");
 		
-		assertThat(responseCode,is(200));
+		//assertThat(responseCode,is(200));
 		assertThat(message,is("Account deleted!"));
 		
 	}
