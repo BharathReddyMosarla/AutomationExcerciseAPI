@@ -32,15 +32,16 @@ public class TestCase13 extends BaseClass
     String city = faker.address().city();
     String mobile_number = faker.phoneNumber().cellPhone();
 	
-	@Test(dependsOnMethods="testcases.TestCase11.testCreateUser")
+	@Test
 	void testUpdateUser()
 	{
-	        
+	        String email = configReader.getProperty("email");
+		String password = configReader.getProperty("password");
 		response = given()
 				.header("Content-Type", "application/x-www-form-urlencoded")
 	            .formParam("name", name)
-	            .formParam("email", TestCase11.email)
-	            .formParam("password", TestCase11.password)
+	            .formParam("email", email)
+	            .formParam("password", password)
 	            .formParam("title", title)
 	            .formParam("birth_date", birth_date)
 	            .formParam("birth_month", birth_month)
