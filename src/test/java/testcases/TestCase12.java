@@ -15,7 +15,7 @@ import routes.Routes;
 public class TestCase12 extends BaseClass
 {
 
-  	@Test(dependsOnMethods="testcases.TestCase13.testUpdateUser")
+  	@Test(dependsOnMethods="testcases.TestCase11.testCreateUser")
 	void testDeleteUser()
 	{ 
   		response = given()
