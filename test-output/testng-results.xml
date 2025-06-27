@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-27T14:04:56 IST" name="API TestSuite" finished-at="2025-06-27T14:05:13 IST" duration-ms="16901">
+    <groups>
+    </groups>
+    <test started-at="2025-06-27T14:04:56 IST" name="Search Tests" finished-at="2025-06-27T14:05:01 IST" duration-ms="4473">
+      <class name="testcases.TestCase06">
+        <test-method signature="testPostSearchproductWithoutParameter()[pri:0, instance:testcases.TestCase06@4722ef0c]" started-at="2025-06-27T14:04:59 IST" name="testPostSearchproductWithoutParameter" finished-at="2025-06-27T14:05:01 IST" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostSearchproductWithoutParameter -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase06@4722ef0c]" started-at="2025-06-27T14:04:59 IST" name="setup" finished-at="2025-06-27T14:04:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.TestCase06 -->
+      <class name="testcases.TestCase05">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase05@338fc1d8]" started-at="2025-06-27T14:04:56 IST" name="setup" finished-at="2025-06-27T14:04:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostSearchproduct()[pri:0, instance:testcases.TestCase05@338fc1d8]" started-at="2025-06-27T14:04:56 IST" name="testPostSearchproduct" finished-at="2025-06-27T14:04:59 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostSearchproduct -->
+      </class> <!-- testcases.TestCase05 -->
+    </test> <!-- Search Tests -->
+    <test started-at="2025-06-27T14:04:56 IST" name="User Tests" finished-at="2025-06-27T14:05:01 IST" duration-ms="5423">
+      <class name="testcases.TestCase13">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase13@25e203e6]" started-at="2025-06-27T14:04:58 IST" name="setup" finished-at="2025-06-27T14:04:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateUser()[pri:0, instance:testcases.TestCase13@25e203e6]" started-at="2025-06-27T14:04:58 IST" name="testUpdateUser" finished-at="2025-06-27T14:05:00 IST" depends-on-methods="testcases.TestCase11.testCreateUser" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- testcases.TestCase13 -->
+      <class name="testcases.TestCase12">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase12@5e193ef5]" started-at="2025-06-27T14:05:00 IST" name="setup" finished-at="2025-06-27T14:05:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteUser()[pri:0, instance:testcases.TestCase12@5e193ef5]" started-at="2025-06-27T14:05:00 IST" name="testDeleteUser" finished-at="2025-06-27T14:05:01 IST" depends-on-methods="testcases.TestCase13.testUpdateUser" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- testcases.TestCase12 -->
+      <class name="testcases.TestCase11">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase11@ceb7701]" started-at="2025-06-27T14:04:56 IST" name="setup" finished-at="2025-06-27T14:04:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:0, instance:testcases.TestCase11@ceb7701]" started-at="2025-06-27T14:04:56 IST" name="testCreateUser" finished-at="2025-06-27T14:04:58 IST" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+      </class> <!-- testcases.TestCase11 -->
+    </test> <!-- User Tests -->
+    <test started-at="2025-06-27T14:05:01 IST" name="UserDetails Tests" finished-at="2025-06-27T14:05:03 IST" duration-ms="1378">
+      <class name="testcases.TestCase14">
+        <test-method signature="testUserDetailsByEmail()[pri:0, instance:testcases.TestCase14@799fc4c9]" started-at="2025-06-27T14:05:01 IST" name="testUserDetailsByEmail" finished-at="2025-06-27T14:05:03 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetailsByEmail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase14@799fc4c9]" started-at="2025-06-27T14:05:01 IST" name="setup" finished-at="2025-06-27T14:05:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.TestCase14 -->
+    </test> <!-- UserDetails Tests -->
+    <test started-at="2025-06-27T14:04:56 IST" name="Prduct Tests" finished-at="2025-06-27T14:05:04 IST" duration-ms="7789">
+      <class name="testcases.TestCase02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase02@2b40ff9c]" started-at="2025-06-27T14:04:56 IST" name="setup" finished-at="2025-06-27T14:04:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostAllProducts()[pri:0, instance:testcases.TestCase02@2b40ff9c]" started-at="2025-06-27T14:04:56 IST" name="testPostAllProducts" finished-at="2025-06-27T14:04:59 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAllProducts -->
+      </class> <!-- testcases.TestCase02 -->
+      <class name="testcases.TestCase01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase01@70ed52de]" started-at="2025-06-27T14:04:59 IST" name="setup" finished-at="2025-06-27T14:04:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.TestCase01@70ed52de]" started-at="2025-06-27T14:04:59 IST" name="testGetAllProducts" finished-at="2025-06-27T14:05:04 IST" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllProducts -->
+      </class> <!-- testcases.TestCase01 -->
+    </test> <!-- Prduct Tests -->
+    <test started-at="2025-06-27T14:04:56 IST" name="Brand Tests" finished-at="2025-06-27T14:05:06 IST" duration-ms="10217">
+      <class name="testcases.TestCase04">
+        <test-method signature="testGetAllBarands()[pri:0, instance:testcases.TestCase04@17bffc17]" started-at="2025-06-27T14:05:00 IST" name="testGetAllBarands" finished-at="2025-06-27T14:05:06 IST" duration-ms="6666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBarands -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase04@17bffc17]" started-at="2025-06-27T14:05:00 IST" name="setup" finished-at="2025-06-27T14:05:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.TestCase04 -->
+      <class name="testcases.TestCase03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase03@3cce5371]" started-at="2025-06-27T14:04:56 IST" name="setup" finished-at="2025-06-27T14:04:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllBarands()[pri:0, instance:testcases.TestCase03@3cce5371]" started-at="2025-06-27T14:04:56 IST" name="testGetAllBarands" finished-at="2025-06-27T14:05:00 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBarands -->
+      </class> <!-- testcases.TestCase03 -->
+    </test> <!-- Brand Tests -->
+    <test started-at="2025-06-27T14:04:56 IST" name="Login Tests" finished-at="2025-06-27T14:05:13 IST" duration-ms="16901">
+      <class name="testcases.TestCase08">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase08@65f8f5ae]" started-at="2025-06-27T14:05:01 IST" name="setup" finished-at="2025-06-27T14:05:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostLoginonlypassword()[pri:0, instance:testcases.TestCase08@65f8f5ae]" started-at="2025-06-27T14:05:01 IST" name="testPostLoginonlypassword" finished-at="2025-06-27T14:05:07 IST" duration-ms="6262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostLoginonlypassword -->
+      </class> <!-- testcases.TestCase08 -->
+      <class name="testcases.TestCase07">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase07@72c8e7b]" started-at="2025-06-27T14:04:56 IST" name="setup" finished-at="2025-06-27T14:04:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostLoginValidDetails()[pri:0, instance:testcases.TestCase07@72c8e7b]" started-at="2025-06-27T14:04:56 IST" name="testPostLoginValidDetails" finished-at="2025-06-27T14:05:01 IST" duration-ms="4574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostLoginValidDetails -->
+      </class> <!-- testcases.TestCase07 -->
+      <class name="testcases.TestCase10">
+        <test-method signature="testPostLoginInValidDetails()[pri:0, instance:testcases.TestCase10@38467116]" started-at="2025-06-27T14:05:08 IST" name="testPostLoginInValidDetails" finished-at="2025-06-27T14:05:13 IST" duration-ms="4826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostLoginInValidDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase10@38467116]" started-at="2025-06-27T14:05:08 IST" name="setup" finished-at="2025-06-27T14:05:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.TestCase10 -->
+      <class name="testcases.TestCase09">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestCase09@431cd9b2]" started-at="2025-06-27T14:05:07 IST" name="setup" finished-at="2025-06-27T14:05:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteLogin()[pri:0, instance:testcases.TestCase09@431cd9b2]" started-at="2025-06-27T14:05:07 IST" name="testDeleteLogin" finished-at="2025-06-27T14:05:08 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteLogin -->
+      </class> <!-- testcases.TestCase09 -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- API TestSuite -->
+</testng-results>
