@@ -24,6 +24,7 @@
       <class name="testcases.TestCase14"/>
     </classes>
   </test> 
+</suite> 
   <!-- 
   <test name="Prduct Tests">
     <classes>
@@ -70,4 +71,4 @@
     </classes>
   </test>  -->
   
-</suite> <!-- Suite -->
+
