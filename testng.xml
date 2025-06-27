@@ -5,7 +5,26 @@
 <listeners>
   	<listener class-name="utils.ExtentReporter" />
  </listeners>
-  
+
+  <test name="API Tests">
+    <classes>
+      <class name="testcases.TestCase01"/>
+      <class name="testcases.TestCase02"/>
+      <class name="testcases.TestCase03"/>
+      <class name="testcases.TestCase04"/>
+      <class name="testcases.TestCase05"/>
+      <class name="testcases.TestCase06"/>
+      <class name="testcases.TestCase07"/>
+      <class name="testcases.TestCase08"/>
+      <class name="testcases.TestCase09"/>
+      <class name="testcases.TestCase10"/>
+      <class name="testcases.TestCase11"/>
+      <class name="testcases.TestCase12"/>
+      <class name="testcases.TestCase13"/>
+      <class name="testcases.TestCase14"/>
+    </classes>
+  </test> 
+  <!-- 
   <test name="Prduct Tests">
     <classes>
       <class name="testcases.TestCase02"/>
@@ -26,7 +45,7 @@
       <class name="testcases.TestCase06"/>
     </classes>
   </test> 
-<!--   
+  
   <test name="Login Tests">
     <classes>
       <class name="testcases.TestCase07"/>
