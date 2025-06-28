@@ -12,7 +12,7 @@ The test suite covers 14 REST API endpoints across user management, product sear
 
 * **Language**: Java
 * **Framework**: TestNG
-* **API Automation Tool**: REST Assured, Selenium WebDriver
+* **API Automation Tool**: REST Assured
 * **Test Design**: Data-Driven & Hybrid
 * **Build Tool**: Maven
 * **Reporting**: Allure Reports, Extent Reports
